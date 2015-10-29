@@ -1,0 +1,404 @@
+[
+  {
+    "model": "planillas.City",
+    "pk": 1,
+    "fields": {
+      "name": "La Paz",
+      "short": "LP"
+    }
+  },
+  {
+    "model": "planillas.City",
+    "pk": 2,
+    "fields": {
+      "name": "Cochabamba",
+      "short": "CB"
+    }
+  },
+  {
+  "model": "planillas.City",
+  "pk": 3,
+  "fields": {
+    "name": "Santa Cruz",
+    "short": "SC"
+  }
+},
+  {
+  "model": "planillas.City",
+  "pk": 4,
+  "fields": {
+    "name": "Beni",
+    "short": "Bn"
+    }
+  },
+  {
+  "model": "planillas.City",
+  "pk": 5,
+  "fields": {
+    "name": "Pando",
+    "short": "Pd"
+  }
+},
+  {
+  "model": "planillas.City",
+  "pk": 6,
+  "fields": {
+    "name": "Oruro",
+    "short": "Or"
+  }
+},
+  {
+  "model": "planillas.City",
+  "pk": 7,
+  "fields": {
+    "name": "Potosi",
+    "short": "Pt"
+  }
+},
+  {
+  "model": "planillas.City",
+  "pk": 8,
+  "fields": {
+    "name": "Tarija",
+    "short": "Tr"
+  }
+},
+  {
+  "model": "planillas.City",
+  "pk": 9,
+  "fields": {
+    "name": "Sucre",
+    "short": "Sc"
+  }
+},
+
+  {
+  "model": "planillas.Semester",
+  "pk": 1,
+  "fields": {
+    "name": "1er Semestre",
+    "short": "1er"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 2,
+  "fields": {
+    "name": "2do Semestre",
+    "short": "2do"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 3,
+  "fields": {
+    "name": "3er Semestre",
+    "short": "3er"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 4,
+  "fields": {
+    "name": "4to Semestre",
+    "short": "4to"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 5,
+  "fields": {
+    "name": "5to Semestre",
+    "short": "5to"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 6,
+  "fields": {
+    "name": "6to Semestre",
+    "short": "6to"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 7,
+  "fields": {
+    "name": "7mo Semestre",
+    "short": "7mo"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 8,
+  "fields": {
+    "name": "8vo Semestre",
+    "short": "8vo"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 9,
+  "fields": {
+    "name": "9no Semestre",
+    "short": "9no"
+    }
+  },
+  {
+  "model": "planillas.Semester",
+  "pk": 10,
+  "fields": {
+    "name": "10mo Semestre",
+    "short": "10mo"
+    }
+  },
+
+  {
+  "model": "planillas.AcademicUnit",
+  "pk": 1,
+  "fields": {
+    "city_id": 1,
+    "name": "Unidad Acad\u00e9mica La Paz",
+    "short": "UALP",
+    "address":"Av. Calle. #",
+    "phone_number":70000000,
+    "email":"emi@2mi.com",
+    "image":"AcademicUnit/ualp.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.AcademicUnit",
+  "pk": 2,
+  "fields": {
+    "city_id": 2,
+    "name": "Unidad Acad\u00e9mica de Cochamamba",
+    "short": "UACBBA",
+    "address":"Av. Calle. #",
+    "phone_number":70000000,
+    "email":"emi@2mi.com",
+    "image":"AcademicUnit/uacbba.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.AcademicUnit",
+  "pk": 3,
+  "fields": {
+    "city_id": 3,
+    "name": "Unidad Acad\u00e9mica de Santa Cruz",
+    "short": "UASC",
+    "address":"Av. Calle. #",
+    "phone_number":70000000,
+    "email":"emi@2mi.com",
+    "image":"AcademicUnit/uasc.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.AcademicUnit",
+  "pk": 4,
+  "fields": {
+    "city_id": 4,
+    "name": "Unidad Acad\u00e9mica de Riberalta",
+    "short": "UAR",
+    "address":"Av. Calle. #",
+    "phone_number":70000000,
+    "email":"emi@emi.com",
+    "image":"AcademicUnit/uara.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+
+  {
+  "model": "planillas.AcademicMethod",
+  "pk": 1,
+  "fields": {
+    "name": "Objetivos",
+    "description": "Metodo de evaluacion por objetivos"
+    }
+  },
+  {
+  "model": "planillas.AcademicMethod",
+  "pk": 2,
+  "fields": {
+    "name": "Competencias",
+    "description": "Metodo de evaluacion por competencias"
+    }
+  },
+
+  {
+  "model": "planillas.Specialty",
+  "pk": 1,
+  "fields": {
+    "name": "Ingenier\u00eda Civil",
+    "mission": "Formar Ingenieros civiles competentes, responsables y eficientes en el campo de su especialidad, con la capacidad de generar, aplicar y difundir el conocimiento, para servir a la sociedad boliviana en las tareas del desarrollo nacional.",
+    "vision": "",
+    "profile":"El Ingeniero Civil estar\u00e1 capacitado para realizar estudios de planificaci\u00f3n dise\u00f1o construcci\u00f3n gesti\u00f3n administraci\u00f3n fiscalizaci\u00f3n operaci\u00f3n mantenimiento de estructuras, edificaciones, puentes, obras hidr\u00e1ulicas y sanitarias, obras viales, ferroviarias, portuarias y aeroportuarias.",
+    "objective":"Formar profesionales con conocimientos te\u00f3rico - pr\u00e1cticos y competencias para encarar y resolver situaciones problem\u00e1ticas en la planificaci\u00f3n dise\u00f1o, construcci\u00f3n, gesti\u00f3n, mantenimiento de edificaciones, puentes, obras, etc.",
+    "image":"Specialty/ing_civil.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 2,
+  "fields": {
+    "name": "Ingenier\u00eda Geogr\u00e1fica",
+    "mission": "Formar profesionales de excelencia en Ingenier\u00eda Geogr\u00e1fica, con altos valores \u00e9ticos, morales y c\u00edvicos; caracterizados por su responsabilidad social, liderazgo, pensamiento reflexivo, critico, innovador y creativo, dotados de conocimientos te\u00f3rico pr\u00e1cticos.",
+    "vision": "",
+    "profile":"El Ingeniero Ge\u00f3grafo graduado de la EMI gestiona proyectos geogr\u00e1ficos realizando la captura, estructuraci\u00f3n, modelamiento, procesamiento, an\u00e1lisis, interpretaci\u00f3n, difusi\u00f3n y distribuci\u00f3n de informaci\u00f3n geogr\u00e1fica; determina el marco de referencia geod\u00e9sico en la representaci\u00f3n de la forma y dimensiones de la superficie terrestre; identifica y caracteriza la distribuci\u00f3n de los recursos naturales, los fen\u00f3menos naturales y antropog\u00e9nicos para el ordenamiento y desarrollo sustentable del territorio.",
+    "objective":"Formar profesionales en Ingenier\u00eda Geogr\u00e1fica, fortaleciendo las competencias y dotados de conocimientos te\u00f3rico pr\u00e1cticos, acorde con el avance cient\u00edfico -te\u00f3rico, las necesidades socio culturales, tendencias globalizadoras y realidad econom\u00eda del pa\u00eds.",
+    "image":"Specialty/ing_geografica.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 3,
+  "fields": {
+    "name": "Ingenier\u00eda en Sistemas Electr\u00f3nicos",
+    "mission": "",
+    "vision": "",
+    "profile":"El Ingeniero Electr\u00f3nico graduado de la EMI formula alternativas de soluci\u00f3n t\u00e9cnico-cient\u00edficas a los requerimientos emergentes de la sociedad; planteando proyectos tecnol\u00f3gicos en el \u00e1rea de las comunicaciones electr\u00f3nicas; planificando sistemas electr\u00f3nicos de regulaci\u00f3n industrial y control autom\u00e1tico de procesos, y desarrollando proyectos basados en sistemas y componentes electr\u00f3nicos computacionales.",
+    "objective":"",
+    "image":"Specialty/ing_sistemas_electronicos.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 4,
+  "fields": {
+    "name": "Ingenier\u00eda Industrial",
+    "mission": "Formar profesionales \u00edntegros, emprendedores y competentes, en la administraci\u00f3n de sistemas de producci\u00f3n, con aptitudes para desarrollar investigaci\u00f3n cient\u00edfica tecnol\u00f3gica en el campo industrial.",
+    "vision": "",
+    "profile":"El Ingeniero Industrial graduado de la EMI determina estrategias de soluci\u00f3n a los problemas emergentes en la generaci\u00f3n de bienes y/o servicios; administrando procesos productivos, organizaciones industriales y de servicios; desarrollando innovaci\u00f3n y tecnolog\u00eda industrial; y realizando proyectos inherentes a la actividad industrial.",
+    "objective":"Ser l\u00edderes en la formaci\u00f3n de profesionales competentes dotados de un caudal de conocimientos que les permita enfrentar con \u00e9xitos los cambios tecnol\u00f3gicos, as\u00ed como ser art\u00edfices del desarrollo y transformaci\u00f3n de nuestra realidad.",
+    "image":"Specialty/ing_industrial.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 5,
+  "fields": {
+    "name": "Ingenier\u00eda Comercial",
+    "mission": "",
+    "vision": "",
+    "profile":"El Ingeniero Comercial graduado de la EMI gestiona acciones de comercializaci\u00f3n de bienes y/o servicios de organizaciones p\u00fablicas y privadas, tanto nacional como internacionalmente; planteando alternativas de mejoramiento en su posici\u00f3n financiera, formulando estrategias de capitalizaci\u00f3n de oportunidades comerciales; y empleando criterios referentes a la planificaci\u00f3n, organizaci\u00f3n, direcci\u00f3n y control en empresas.",
+    "objective":"",
+    "image":"Specialty/ing_comercial.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 6,
+  "fields": {
+    "name": "Ingenier\u00eda de Sistemas",
+    "mission": "Formar profesionales de excelencia en Ingenier\u00eda de Sistemas con valores \u00e9ticos, morales y c\u00edvicos; caracterizados por su responsabilidad social, liderazgo, pensamiento reflexivo-critico, innovador y creativo, comprometidos con el desarrollo sustentable del pa\u00eds. Dotados de conocimientos te\u00f3rico - pr\u00e1cticos fundamentados en: La Teor\u00eda General de Sistemas y Las Tecnolog\u00edas de Informaci\u00f3n y Comunicaciones.",
+    "vision": "",
+    "profile":"El Ingeniero de Sistemas graduado de la EMI realiza el dise\u00f1o, desarrollo, implementaci\u00f3n, evaluaci\u00f3n, mantenimiento, soporte y retiro de sistemas con enfoque sist\u00e9mico y visi\u00f3n emprendedora; aplicando nuevas tecnolog\u00edas de informaci\u00f3n y comunicaci\u00f3n; realizando el modelado y automatizaci\u00f3n de sistemas; desarrollando sistemas de gesti\u00f3n empresarial y de producci\u00f3n orientados a la toma de decisiones que optimicen los procesos, con creatividad, liderazgo y pensamiento cr\u00edtico en un entorno complejo, conflictivo y multidisciplinario.",
+    "objective":"Comprometer todos los esfuerzos de la gesti\u00f3n acad\u00e9mica y administrativa a fin de establecer el escenario id\u00f3neo para la formaci\u00f3n de profesionales en ingenier\u00eda de sistemas de la m\u00e1s alta calidad.",
+    "image":"Specialty/ing_sistemas.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 7,
+  "fields": {
+    "name": "Ingenier\u00eda Ambiental",
+    "mission": "Formar profesionales de excelencia con valores \u00e9ticos, morales y c\u00edvicos altamente capacitados en la tem\u00e1tica de la Ingenier\u00eda Ambiental y la Investigaci\u00f3n Cient\u00edfica con profundos conocimientos de la realidad nacional en el contexto global, capaces de contribuir eficientemente al desarrollo integral sostenible del Medio Ambiente.",
+    "vision": "",
+    "profile":"El Ingeniero Ambiental graduado de la EMI formula soluciones a problemas medioambientales; desarrollando sistemas de prevenci\u00f3n de potenciales impactos ambientales negativos, de control de los par\u00e1metros ambientales y monitoreo de los procesos generadores de impactos negativos, y de mitigaci\u00f3n y restauraci\u00f3n de los componentes ambientales afectados.",
+    "objective":"Contribuir al desarrollo sostenible del pa\u00eds formando un nuevo tipo de profesionales, con profundos conocimientos de la ciencia y la ingenier\u00eda ambiental, altamente capacitados y competitivos.",
+    "image":"Specialty/ing_ambiental.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 8,
+  "fields": {
+    "name": "Ingenier\u00eda Petrolera",
+    "mission": "Formar profesionales de excelencia en ingenier\u00eda de petr\u00f3leo y gas, con valores \u00e9ticos, morales y c\u00edvicos; caracterizados por su responsabilidad social, liderazgo, pensamiento reflexivo-critico, innovador y creativo, dotados de conocimientos te\u00f3rico - pr\u00e1cticos fundamentados en las ciencias de la especialidad petrolera, con el prop\u00f3sito de optimizar procesos de toma de decisiones y de control, apropiados a una situaci\u00f3n particular, acorde con los avances tecnol\u00f3gicos y a las necesidades del pa\u00eds.",
+    "vision": "",
+    "profile":"El Ingeniero Petrolero graduado de la EMI administra la cadena de hidrocarburos, categorizando las \u00e1reas de aplicaci\u00f3n de la industria petrolera, desarrollando los programas y procesos de cada \u00e1rea, estableciendo la correcta aplicaci\u00f3n de cada proceso y experimentando los diferentes m\u00e9todos de extracci\u00f3n y aprovechamiento de los hidrocarburos.",
+    "objective":"Formar profesionales ingenieros petroleros, altamente capacitados en los aspectos cient\u00edficos, tecnol\u00f3gicos y \u00e9ticos, dotados de una alta conciencia social.",
+    "image":"Specialty/ing_petrolera.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 9,
+  "fields": {
+    "name": "Ingenier\u00eda en Telecomunicaciones",
+    "mission": "",
+    "vision": "",
+    "profile":"Desarrolla sistemas, redes y servicios de telecomunicaci\u00f3n con tecnolog\u00edas convergentes de nueva generaci\u00f3n que den respuesta a los requerimientos emergentes de la industria, el sector productivo y la sociedad en su conjunto; planteando soluciones tecnol\u00f3gicas en el \u00e1rea de las redes de acceso; planificando sistemas de comunicaci\u00f3n en redes de transporte de datos; formulando sistemas de procesamiento, almacenamiento y representaci\u00f3n de la informaci\u00f3n multiplataforma y entendiendo la  regulaci\u00f3n y la normativa t\u00e9cnica y legal del sector de las telecomunicaciones.",
+    "objective":"",
+    "image":"Specialty/ing_telecomunicaiones.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 10,
+  "fields": {
+    "name": "Ingenier\u00eda Mecatr\u00f3nica",
+    "mission": "",
+    "vision": "",
+    "profile":"Desarrolla mecanismos inteligentes que permitan optimizar, mejorar la calidad y desempe\u00f1o de productos y procesos del sector productivo; a trav\u00e9s de la integraci\u00f3n sin\u00e9rgica de metodolog\u00edas de dise\u00f1o e integraci\u00f3n de componentes mec\u00e1nicos, electr\u00f3nicos e inform\u00e1ticos; Planificando sistemas de Automatizaci\u00f3n y Rob\u00f3tica; planteando proyectos tecnol\u00f3gicos en el area de  sistemas de Computaci\u00f3n; Dise\u00f1ando Sistemas Mec\u00e1nicos; a trav\u00e9s de una visi\u00f3n interdisciplinaria e integral; en forma eficiente y eficaz.",
+    "objective":"",
+    "image":"Specialty/ing_mecatronica.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+  {
+  "model": "planillas.Specialty",
+  "pk": 11,
+  "fields": {
+    "name": "Ciencias Basicas",
+    "mission": "",
+    "vision": "",
+    "profile":"",
+    "objective":"",
+    "image":"Specialty/ciencias_basicas.jpg",
+    "created_at":"1993-03-12",
+    "updated_at":"1993-03-12"
+    }
+  },
+
+  {
+    "model": "planillas.People",
+    "pk": 1,
+    "fields": {
+      "gender": "M",
+      "ci": "9981765",
+      "first_name": "Eyvind Emilio",
+      "last_name": "Tinini Coaquira",
+      "date_of_birth": "1993-03-12",
+      "country": "Bolivia",
+      "city_id": "1",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24"
+    }
+  }
+]
