@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
                 ('text_help', models.TextField(default=b'', max_length=300)),
                 ('values', models.TextField()),
                 ('show_image', models.BooleanField(default=False)),
-                ('image', models.ImageField(default=b'', upload_to=b'Question/')),
+                ('image', models.TextField(default=b'')),
                 ('required', models.BooleanField(default=False)),
                 ('time_question', models.IntegerField(default=0)),
                 ('more_options', models.BooleanField(default=False)),

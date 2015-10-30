@@ -17,7 +17,8 @@ class Question(models.Model):
     text_help = models.TextField(max_length=300, default='')
     values = models.TextField(blank=False, null=False)
     show_image = models.BooleanField(default=False)
-    image = models.ImageField(upload_to="Question/", default='')
+    # image = models.ImageField(upload_to="Question/", default='')
+    image = models.TextField(default='')
     required = models.BooleanField(default=False)
     time_question = models.IntegerField(default=0)
     more_options = models.BooleanField(default=False)
@@ -40,10 +41,6 @@ class QuestionSerializer(serializers.ModelSerializer):
 
 
 class QuestionTempSerializer(serializers.ModelSerializer):
-    image = serializers.SerializerMethodField('get_image_url')
-
-    def get_image_url(self, obj):
-        return '%s%s' % ("http://127.0.0.1:8000/media/", obj.image)
 
     class Meta:
         model = Question
