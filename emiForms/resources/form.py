@@ -23,7 +23,7 @@ class Form(models.Model):
 class FormSerializer(serializers.ModelSerializer):
     class Meta:
         model = Form
-        fields = ('id', 'name', 'description','image', 'theme', 'created_at', 'updated_at')
+        fields = ('id', 'name', 'description', 'image', 'theme', 'created_at', 'updated_at')
 
 
 class FormDetailSerializer(serializers.ModelSerializer):
