@@ -1,8 +1,10 @@
+from django.contrib.sites.models import get_current_site
 from django.db import models
 from rest_framework import viewsets, views, serializers
 from rest_framework.generics import get_object_or_404
 from rest_framework.response import Response
-from emiForms.resources.form import Form, FormSerializer
+from backend import settings
+from emiForms.resources.form import FormSerializer, Form
 from rest_framework import generics
 
 
@@ -29,6 +31,20 @@ class Question(models.Model):
 
 
 class QuestionSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Question
+        fields = (
+            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'show_image', 'image',
+            'required', 'time_question', 'more_options', 'other')
+
+
+class QuestionTempSerializer(serializers.ModelSerializer):
+    image = serializers.SerializerMethodField('get_image_url')
+
+    def get_image_url(self, obj):
+        return '%s%s' % ("http://127.0.0.1:8000/media/", obj.image)
+
     class Meta:
         model = Question
         fields = (
@@ -41,54 +57,19 @@ class QuestionViewSet(viewsets.ModelViewSet):
     serializer_class = QuestionSerializer
 
 
-# class FormQuestionViewSet(viewsets.ModelViewSet):
-#     # queryset = Question.objects.all()
-#     serializer_class = FormSerializer
-#     queryset = Form.objects.all()
-#
-#     def list(self, request, *args, **kwargs):
-#         queryset = Form.objects.filter()
-#         serializer = Form(queryset, many=True)
-#         return Response(serializer.data)
-#
-#     def retrieve(self, request, pk=None):
-#         queryset = Form.objects.filter()
-#         form = get_object_or_404(queryset, pk=pk)
-#         serializer = FormSerializer(form)
-#         return Response(serializer.data)
-
-
 class FormQuestionViewSet(viewsets.ViewSet):
     serializer_class = QuestionSerializer
     queryset = Question.objects.all()
 
-    def list(self, request, form_pk=None):
-        queryset = Question.objects.filter(form=form_pk)
-        serializer = QuestionSerializer(queryset, many=True)
+    def list(self, request):
+        queryset = Question.objects.all()
+        serializer = QuestionTempSerializer(queryset, many=True)
         return Response(serializer.data)
 
     def retrieve(self, request, pk=None):
         queryset = Question.objects.filter(form=pk)
-        question = get_object_or_404(queryset, form=pk)
-        serializer = QuestionSerializer(question)
+        serializer = QuestionTempSerializer(queryset, many=True)
         return Response(serializer.data)
-
-
-# class QuestionFormViewSet(viewsets.ViewSet):
-#     serializer_class = QuestionSerializer
-#     queryset = Question.objects.all()
-#
-#     def list(self, request, form_pk=None):
-#         queryset = Question.objects.filter(form=form_pk)
-#         serializer = QuestionSerializer(queryset, many=True)
-#         return Response(serializer.data)
-#
-#     def retrieve(self, request, pk=None, form_pk=None):
-#         queryset = Question.objects.filter(pk=pk, form=form_pk)
-#         question = get_object_or_404(queryset, pk=pk)
-#         serializer = QuestionSerializer(question)
-#         return Response(serializer.data)
-
 
 # class QuestionFormApiView(views.APIView):
 #     serializer_class = QuestionSerializer

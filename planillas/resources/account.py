@@ -41,7 +41,7 @@ class Account(AbstractBaseUser):
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
-    is_active = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=True)
 
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=40, unique=True)
@@ -87,7 +87,18 @@ class AccountSerializer(serializers.ModelSerializer):
 
         fields = (
             'is_admin', 'is_staff', 'is_superuser', 'id', 'is_active', 'username', 'email', 'image', 'phone_number',
-            'info', 'student')
+            'info', 'student', 'password')
+
+    def create(self, validated_data):
+        request = self.context.get('request', None)
+
+        password = validated_data.pop('password', None)
+        instance = self.Meta.model(**validated_data)
+        instance.set_password(password)
+
+        instance.save()
+
+        return instance
 
 
 class AccountViewSet(viewsets.ModelViewSet):
