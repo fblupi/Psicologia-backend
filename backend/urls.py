@@ -26,7 +26,7 @@ from planillas.resources.specialty import SpecialtyViewSet
 from planillas.resources.student import StudentViewSet
 from planillas.resources.account import LoginView, LogoutView
 from emiForms.resources.form import FormViewSet
-from emiForms.resources.question import QuestionViewSet, QuestionFormApiView
+from emiForms.resources.question import QuestionViewSet, FormQuestionViewSet
 # from emiForms.resources.question import QuestionFormApiView
 from django.conf import settings
 from django.conf.urls.static import static
@@ -42,14 +42,14 @@ router.register(r'Specialty', SpecialtyViewSet)
 router.register(r'Student', StudentViewSet)
 
 routerForms = routers.DefaultRouter()
-routerForms.register(r'Form', FormViewSet)
-routerForms.register(r'Question', QuestionViewSet)
+routerForms.register(r'Form', FormViewSet, base_name='Form')
+routerForms.register(r'Question', QuestionViewSet, base_name='Question')
+routerForms.register(r'FormQuestion', FormQuestionViewSet, base_name='FormQuestion')
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include(router.urls)),
     url(r'^Forms/', include(routerForms.urls)),
-    url(r'^Forms/Form/(?P<pk>[0-9]+)/question/$', QuestionFormApiView.as_view(), name='Forms'),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^docs/', include('rest_framework_swagger.urls')),
     url(r'^Login/', LoginView.as_view(), name="login"),
