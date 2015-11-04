@@ -6,19 +6,22 @@ from rest_framework.response import Response
 from backend import settings
 from emiForms.resources.form import FormSerializer, Form
 from rest_framework import generics
+from planillas.resources.account import Account
 
 
 class Question(models.Model):
     # name = models.CharField(max_length=100, unique=True, blank=False)
     form = models.ForeignKey(Form, default=0)
-    question = models.TextField(max_length=300, blank=False)
+    question = models.TextField(max_length=300, blank=True)
     type_question = models.IntegerField(blank=False)
     show_text_help = models.BooleanField(default=False)
     text_help = models.TextField(max_length=300, default='')
-    values = models.TextField(blank=False, null=False)
+    values = models.TextField(blank=True, null=False)
+    values_number = models.TextField(blank=True, null=False, default=0)
+
     show_image = models.BooleanField(default=False)
-    # image = models.ImageField(upload_to="Question/", default='')
-    image = models.TextField(default='')
+    image = models.ImageField(upload_to="Question/", default='')
+    # image = models.TextField(default='')
     required = models.BooleanField(default=False)
     time_question = models.IntegerField(default=0)
     more_options = models.BooleanField(default=False)
@@ -36,16 +39,24 @@ class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
         fields = (
-            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'show_image', 'image',
+            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number', 'show_image', 'image',
             'required', 'time_question', 'more_options', 'other')
 
 
 class QuestionTempSerializer(serializers.ModelSerializer):
+    image = serializers.SerializerMethodField('get_image_url')
+
+    def get_image_url(self, obj):
+
+        if(obj.image):
+            return ('%s%s' % ("http://127.0.0.1:8000/media/", obj.image))
+        else:
+            return ""
 
     class Meta:
         model = Question
         fields = (
-            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'show_image', 'image',
+            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number','show_image', 'image',
             'required', 'time_question', 'more_options', 'other')
 
 
@@ -55,7 +66,7 @@ class QuestionViewSet(viewsets.ModelViewSet):
 
 
 class FormQuestionViewSet(viewsets.ViewSet):
-    serializer_class = QuestionSerializer
+    serializer_class = QuestionTempSerializer
     queryset = Question.objects.all()
 
     def list(self, request):

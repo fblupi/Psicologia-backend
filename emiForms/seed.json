@@ -66,4 +66,16 @@
     }
   }
 
+  {
+    "model": "emiForms.Question",
+    "pk": 1,
+    "fields": {
+      "form": 1,
+      "question": "<p></p>",
+      "values":"",
+      "image":"Question/",
+      "created_at":"1993-03-12",
+      "updated_at":"1993-03-12"
+    }
+  }
 ]

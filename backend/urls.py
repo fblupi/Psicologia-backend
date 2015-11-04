@@ -27,6 +27,7 @@ from planillas.resources.student import StudentViewSet
 from planillas.resources.account import LoginView, LogoutView
 from emiForms.resources.form import FormViewSet
 from emiForms.resources.question import QuestionViewSet, FormQuestionViewSet
+from emiForms.resources.answer import AnswerViewSet
 # from emiForms.resources.question import QuestionFormApiView
 from django.conf import settings
 from django.conf.urls.static import static
@@ -45,6 +46,7 @@ routerForms = routers.DefaultRouter()
 routerForms.register(r'Form', FormViewSet, base_name='Form')
 routerForms.register(r'Question', QuestionViewSet, base_name='Question')
 routerForms.register(r'FormQuestion', FormQuestionViewSet, base_name='FormQuestion')
+routerForms.register(r'Answer', AnswerViewSet, base_name='Answer')
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
