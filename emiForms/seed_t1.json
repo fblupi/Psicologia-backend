@@ -1,15 +1,14 @@
 [
-
   {
     "model": "emiForms.Question",
     "pk": 1,
     "fields": {
       "form": 1,
       "question": "<p>... es a empezar como fin es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -18,10 +17,10 @@
     "fields": {
       "form": 1,
       "question": "<p>...es a mago como chiste a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -30,10 +29,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a pent\u00e1gono como diez  es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -42,10 +41,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a mano como calcet\u00edn es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -54,10 +53,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ara\u00f1ar como avispa es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -66,10 +65,10 @@
     "fields": {
       "form": 1,
       "question": "<p>...es a izar como abajo es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -78,10 +77,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a boca como gru\u00f1o es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -90,10 +89,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tierra como golfo es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -102,10 +101,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tarde como primero es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -114,10 +113,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a red como eslab\u00f3n es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -126,10 +125,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ordinario como peculiar es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -138,10 +137,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a nuez como piel es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -150,10 +149,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a pobreza como abundancia es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -162,10 +161,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a flota como a soldado es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -174,10 +173,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a alumno como pedriatra es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -186,10 +185,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a azar como recompensa es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -198,10 +197,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a muelle como avi\u00f3n  es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -210,10 +209,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a frecuente como escaso es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -222,10 +221,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a despejar como clave es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -234,10 +233,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a abandonar como aceptar es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -246,10 +245,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a avi\u00f3n como timonel es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -258,10 +257,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a copia como creaci\u00f3n es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -270,10 +269,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a cort\u00e9s como tosco es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -282,10 +281,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a fatiga como bebida es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -294,10 +293,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a cuervo como pelo es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -306,10 +305,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ganar como desear es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -318,10 +317,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tiempo como inmenso es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -330,10 +329,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a caliente como g\u00e9lido es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -342,10 +341,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a aceptaci\u00f3n como proyecto es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -354,10 +353,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a consultar como respuesta es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -366,10 +365,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a zanja como arado es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -378,10 +377,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a rechazar como agredir es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -390,10 +389,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a \u00e1rbol como manantial es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -402,10 +401,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a separar como proximidad es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -414,10 +413,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a esculpir como cuero es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -426,10 +425,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a fino como copioso es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -438,10 +437,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a frase como letra es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -450,10 +449,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a vigilia como dormir es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -462,10 +461,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a labranza como m\u00e1quina es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -474,10 +473,10 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a seguridad como indicio es a...</p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   }
 ]
