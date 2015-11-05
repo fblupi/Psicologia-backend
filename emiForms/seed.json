@@ -64,7 +64,7 @@
       "updated_at":"1993-03-12",
       "image":"Form/ortografia.png"
     }
-  }
+  },
 
   {
     "model": "emiForms.Question",
@@ -73,9 +73,11 @@
       "form": 1,
       "question": "<p></p>",
       "values":"",
-      "image":"Question/",
+      "image":"Question/kk",
       "created_at":"1993-03-12",
       "updated_at":"1993-03-12"
     }
   }
+
+
 ]
