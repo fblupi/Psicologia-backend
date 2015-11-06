@@ -1,16 +1,16 @@
 [
-
   {
     "model": "emiForms.Question",
     "pk": 41,
     "fields": {
       "form": 2,
       "question": "<p>1 \u00bfQu\u00e9 cifra deber\u00eda reemplazar a la F en esta divisi\u00f3n cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen1.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen1.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -19,11 +19,12 @@
     "fields": {
       "form": 2,
       "question": "<p>2</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen2.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen2.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -32,10 +33,11 @@
     "fields": {
       "form": 2,
       "question": "<p>3</p>",
-      "values":"",
-      "image":"Question/imagen3.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/imagen3.jpg",
+      "type_question": 3,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -44,11 +46,12 @@
     "fields": {
       "form": 2,
       "question": "<p>4 \u00bfQu\u00e9 cifra deber\u00eda ir en lugar de la P en esta suma cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen4.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen4.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -56,12 +59,13 @@
     "pk": 45,
     "fields": {
       "form": 2,
+      "type_question": 3,
       "question": "<p>5 \u00bfC\u00faal es el resto de dividir 2480739 entre 20?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen5.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "image": "Question/imagen5.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -70,11 +74,12 @@
     "fields": {
       "form": 2,
       "question": "<p>6 \u00bfQu\u00e9 n\u00famero puede sustituir a la L para que la proporci\u00f3n sea correcta?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen6.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen6.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -83,11 +88,12 @@
     "fields": {
       "form": 2,
       "question": "<p>7</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen7.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen7.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -96,11 +102,12 @@
     "fields": {
       "form": 2,
       "question": "<p>8  El 30% de 50% de 300 es:</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen8.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen8.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -109,11 +116,12 @@
     "fields": {
       "form": 2,
       "question": "<p>9 \u00bfQu\u00e9 n\u00famero deber\u00eda sustituir a la K en esta divisi\u00f3n cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen9.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen9.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -122,11 +130,12 @@
     "fields": {
       "form": 2,
       "question": "<p>10  4=10% de:</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen10.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen10.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -135,11 +144,12 @@
     "fields": {
       "form": 2,
       "question": "<p>11</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen11.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen11.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -148,11 +158,12 @@
     "fields": {
       "form": 2,
       "question": "<p>12 \u00bfQu\u00e9 n\u00famero debe sustituir a la N para que la proporci\u00f3n sea correcta?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen12.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen12.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -161,11 +172,12 @@
     "fields": {
       "form": 2,
       "question": "<p>13</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen13.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen13.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -174,11 +186,12 @@
     "fields": {
       "form": 2,
       "question": "<p>14 \u00bfQu\u00e9 suma es MAYOR que uno?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen14.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen14.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -187,11 +200,12 @@
     "fields": {
       "form": 2,
       "question": "<p>15 \u00bfQu\u00e9 cifra debe sustituir a la J en esta suma cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen15.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen15.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -200,11 +214,12 @@
     "fields": {
       "form": 2,
       "question": "<p>16 \u00bfQu\u00e9 n\u00famero deber\u00eda continuar la serie?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen16.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen16.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -213,11 +228,12 @@
     "fields": {
       "form": 2,
       "question": "<p>17 \u00bfC\u00faal es el n\u00famero MAS PEQUE\u00d1O que es divisible exactamente por 2,4,7 y 21?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen17.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen17.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -226,11 +242,12 @@
     "fields": {
       "form": 2,
       "question": "<p>18 \u00bfQu\u00e9 cifra deber\u00eda sustituir a la N en esta resta cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen18.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen18.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -239,11 +256,12 @@
     "fields": {
       "form": 2,
       "question": "<p>19</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen19.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen19.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -252,24 +270,26 @@
     "fields": {
       "form": 2,
       "question": "<p>20</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen20.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen20.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
-    {
+  {
     "model": "emiForms.Question",
     "pk": 61,
     "fields": {
       "form": 2,
       "question": "<p>21 \u00bfQu\u00e9 cifra debe sustituir a la R en esta resta cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen21.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen21.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -278,11 +298,12 @@
     "fields": {
       "form": 2,
       "question": "<p>22 \u00bfQu\u00e9 n\u00famero es divsible exactamente entre 3?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen22.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen22.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -291,10 +312,11 @@
     "fields": {
       "form": 2,
       "question": "<p>23  y+x+7x-6y = </p>",
-      "values":"",
-      "image":"Question/imagen23.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/imagen23.jpg",
+      "type_question": 3,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -303,11 +325,12 @@
     "fields": {
       "form": 2,
       "question": "<p>24 \u00bfQu\u00e9 n\u00famero continuar\u00eda la serie?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen24.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen24.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -316,11 +339,12 @@
     "fields": {
       "form": 2,
       "question": "<p>25 \u00bfQu\u00e9 es el millar m\u00e1s pr\u00f3ximo al que podr\u00eda redondearse 710 x 80?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen25.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen25.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -329,11 +353,12 @@
     "fields": {
       "form": 2,
       "question": "<p>26 \u00bfQu\u00e9 cifra deber\u00eda sustituir a la A en esta multiplicaci\u00f3n cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen26.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen26.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -342,11 +367,12 @@
     "fields": {
       "form": 2,
       "question": "<p>27  mn = y  Si  y = 10, entonces m =</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen27.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen27.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -355,11 +381,12 @@
     "fields": {
       "form": 2,
       "question": "<p>28</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen28.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen28.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -368,11 +395,12 @@
     "fields": {
       "form": 2,
       "question": "<p>29 \u00bfQu\u00e9 n\u00famero debe sustituir a la T para que la proporci\u00f3n sea correcta?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen29.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen29.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -381,11 +409,12 @@
     "fields": {
       "form": 2,
       "question": "<p>30 \u00bfQu\u00e9 valores de x hacen que sea verdadera la expresi\u00f3n x + 3 >= 11?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen30.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen30.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -394,11 +423,12 @@
     "fields": {
       "form": 2,
       "question": "<p>31 \u00bfQu\u00e9 cifra debe sustituir a la F en la siguiente divisi\u00f3n cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen31.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen31.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -407,11 +437,12 @@
     "fields": {
       "form": 2,
       "question": "<p>32 \u00bfC\u00faal de las siguientes expresiones vale uno?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen32.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen32.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -420,11 +451,12 @@
     "fields": {
       "form": 3,
       "question": "<p>33 \u00bfQu\u00e9 cifra debe sustituir a la J en esta multiplicaci\u00f3n cuyo resultado es correcto?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen33.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen33.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -433,11 +465,12 @@
     "fields": {
       "form": 2,
       "question": "<p>34 C\u00faal es el resultado al n\u00famero entero m\u00e1s pr\u00f3ximo, de la siguiente operaci\u00f3n</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen34.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen34.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -446,11 +479,12 @@
     "fields": {
       "form": 2,
       "question": "<p>35  Qu\u00e9 n\u00famero deber\u00eda sustituir a la H para que la proporci\u00f3n fuera correcto</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen35.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen35.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -459,11 +493,12 @@
     "fields": {
       "form": 2,
       "question": "<p>36  2*100.000 + 8*1.000 + 9*10 =</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen36.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen36.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -472,11 +507,12 @@
     "fields": {
       "form": 2,
       "question": "<p>37  Si x = 10, entonces 3x^2 - x = </p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen37.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen37.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -485,11 +521,12 @@
     "fields": {
       "form": 2,
       "question": "<p>38  a = 1/2 bh  Si b = 6 y a = 14, entonces h =</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen38.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen38.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -498,11 +535,12 @@
     "fields": {
       "form": 2,
       "question": "<p>39  Si introduce el n\u00famero 8, \u00bfCu\u00e1ntas veces pasar\u00e1 por el paso 4 para llegar al final?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen39.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen39.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
@@ -511,11 +549,12 @@
     "fields": {
       "form": 2,
       "question": "<p>40  Si introduce el n\u00famero 3, \u00bfC\u00faal ser\u00e1 el n\u00famero cuando llegue al final?</p>",
-      "values":"",
-      "show_image":true,
-      "image":"Question/imagen40.jpg",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "show_image": true,
+      "type_question": 3,
+      "image": "Question/imagen40.jpg",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   }
 ]

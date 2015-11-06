@@ -1,483 +1,522 @@
 [
-
   {
     "model": "emiForms.Question",
     "pk": 231,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 232,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 233,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 234,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 235,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 236,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 237,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 238,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 239,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 240,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 241,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 242,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 243,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 244,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 245,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 246,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 247,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 248,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 249,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 250,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 251,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 252,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 253,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 254,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 255,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 256,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 257,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 258,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 259,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 260,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 261,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 262,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 263,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 264,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 265,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 266,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 267,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 268,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 269,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p> </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   },
   {
     "model": "emiForms.Question",
     "pk": 270,
     "fields": {
+      "type_question": 3,
       "form": 6,
       "question": "<p>  </p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "image": "Question/kk",
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
     }
   }
 ]

@@ -1,7 +1,7 @@
 from django.db import models
 from rest_framework import viewsets, views, serializers
 from emiForms.resources.form import Form, FormSerializer
-from planillas.resources.account import Account, AccountSerializer
+from planillas.resources.account import Account, AccountSerializer, AccountDetailSerializer
 
 
 class Answer(models.Model):
@@ -23,6 +23,20 @@ class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
         fields = ('id', 'form', 'owner', 'values', 'time', 'created_at', 'updated_at')
+
+
+class AnswerDetailSerializer(serializers.ModelSerializer):
+    owner = AccountDetailSerializer(read_only=True)
+    # form = FormSerializer(read_only=True)
+
+    class Meta:
+        model = Answer
+        fields = ('id', 'form', 'owner', 'values', 'time', 'created_at', 'updated_at')
+
+
+class AnswerDetailViewSet(viewsets.ModelViewSet):
+    queryset = Answer.objects.all()
+    serializer_class = AnswerDetailSerializer
 
 
 class AnswerViewSet(viewsets.ModelViewSet):
