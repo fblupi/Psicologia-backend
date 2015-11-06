@@ -10,8 +10,8 @@ from planillas.resources.account import Account
 class Form(models.Model):
     owner = models.ForeignKey(Account, default=1)
     form_enabled = models.OneToOneField(FormEnabled)
-    name = models.CharField(max_length=100, unique=True, blank=False)
-    description = models.CharField(max_length=100, blank=True, default='')
+    name = models.CharField(max_length=1000, unique=True, blank=False)
+    description = models.CharField(max_length=2000, blank=True, default='')
     image = models.ImageField(upload_to="Form/", default='')
     theme = models.TextField(max_length=100, default='')
     time = models.IntegerField(default=0)
