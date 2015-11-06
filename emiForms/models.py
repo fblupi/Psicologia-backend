@@ -4,3 +4,4 @@ from django.db import models
 import emiForms.resources.form
 import emiForms.resources.question
 import emiForms.resources.answer
+import emiForms.resources.form_enabled

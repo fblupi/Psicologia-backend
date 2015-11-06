@@ -27,6 +27,9 @@ class Question(models.Model):
     more_options = models.BooleanField(default=False)
     other = models.BooleanField(default=False)
 
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateField(auto_now=True)
+
     def __unicode__(self):
         return self.question
 
@@ -35,12 +38,12 @@ class Question(models.Model):
 
 
 class QuestionSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Question
         fields = (
-            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number', 'show_image', 'image',
-            'required', 'time_question', 'more_options', 'other')
+            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number',
+            'show_image', 'image',
+            'required', 'time_question', 'more_options', 'other', 'created_at', 'updated_at')
 
 
 class QuestionTempSerializer(serializers.ModelSerializer):
@@ -48,7 +51,7 @@ class QuestionTempSerializer(serializers.ModelSerializer):
 
     def get_image_url(self, obj):
 
-        if(obj.image):
+        if (obj.image):
             return ('%s%s' % ("http://127.0.0.1:8000/media/", obj.image))
         else:
             return ""
@@ -56,7 +59,8 @@ class QuestionTempSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
         fields = (
-            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number','show_image', 'image',
+            'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number',
+            'show_image', 'image',
             'required', 'time_question', 'more_options', 'other')
 
 

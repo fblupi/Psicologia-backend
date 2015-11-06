@@ -1,13 +1,86 @@
 [
   {
+    "model": "emiForms.FormEnabled",
+    "pk": 1,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
+    "model": "emiForms.FormEnabled",
+    "pk": 2,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
+    "model": "emiForms.FormEnabled",
+    "pk": 3,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
+    "model": "emiForms.FormEnabled",
+    "pk": 4,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
+    "model": "emiForms.FormEnabled",
+    "pk": 5,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
+    "model": "emiForms.FormEnabled",
+    "pk": 6,
+    "fields": {
+      "all": false,
+      "accounts": "",
+      "max_answer": 1,
+      "auth": true,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
     "model": "emiForms.Form",
     "pk": 1,
     "fields": {
       "name": "Razonamiento verbal",
+      "form_enabled": 1,
       "description": "Esta prueba consta de frases o proposiciones a las que faltan la primera y Ia ?ltima palabras.",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/verbal.png"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/verbal.png"
     }
   },
   {
@@ -15,10 +88,11 @@
     "pk": 2,
     "fields": {
       "name": "Razonamiento numerico",
+      "form_enabled": 2,
       "description": "Esta prueba intenta comprobar su eapacidad para razonar con n?m?ros.",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/numerico.png"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/numerico.png"
     }
   },
   {
@@ -26,10 +100,11 @@
     "pk": 3,
     "fields": {
       "name": "Razonamiento abstracto",
+      "form_enabled": 3,
       "description": "En esta prueba se trata de apreciar la capacidad para razonar con figuras o dibujos.",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/abstracto.png"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/abstracto.png"
     }
   },
   {
@@ -37,10 +112,11 @@
     "pk": 4,
     "fields": {
       "name": "Razonamiento Mecanico",
+      "form_enabled": 4,
       "description": "En esta prueba hay un cierto n?mero de dibujos sobre los cuales se hacen algunas preguntas",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/mecanico.png"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/mecanico.png"
     }
   },
   {
@@ -48,10 +124,11 @@
     "pk": 5,
     "fields": {
       "name": "Relaciones espaciales",
+      "form_enabled": 5,
       "description": "Esta prueba presenta un modelo o patr?n en el que algunas zonas est?n sombreadas y en otras aparecen peque?os dibujos.",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/espacial.png"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/espacial.png"
     }
   },
   {
@@ -59,25 +136,11 @@
     "pk": 6,
     "fields": {
       "name": "Ortografia",
+      "form_enabled": 6,
       "description": "En esta prueba se presentan grupos de cuatro palabras entre las cuales hay una que est? mal escrita.",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12",
-      "image":"Form/ortografia.png"
-    }
-  },
-
-  {
-    "model": "emiForms.Question",
-    "pk": 1,
-    "fields": {
-      "form": 1,
-      "question": "<p></p>",
-      "values":"",
-      "image":"Question/kk",
-      "created_at":"1993-03-12",
-      "updated_at":"1993-03-12"
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12",
+      "image": "Form/ortografia.png"
     }
   }
-
-
 ]

@@ -3,11 +3,13 @@ from rest_framework import viewsets, views, serializers
 
 
 # from planillas.models import City
+from emiForms.resources.form_enabled import FormEnabled
 from planillas.resources.account import Account
 
 
 class Form(models.Model):
-    owner = models.ForeignKey(Account, default=0)
+    owner = models.ForeignKey(Account, default=1)
+    form_enabled = models.OneToOneField(FormEnabled)
     name = models.CharField(max_length=100, unique=True, blank=False)
     description = models.CharField(max_length=100, blank=True, default='')
     image = models.ImageField(upload_to="Form/", default='')
@@ -20,19 +22,20 @@ class Form(models.Model):
         return self.name
 
     class Meta:
-        ordering = ['name']
+        ordering = ['id']
 
 
 class FormSerializer(serializers.ModelSerializer):
     class Meta:
         model = Form
-        fields = ('id', 'owner', 'name', 'description', 'image', 'theme', 'time', 'created_at', 'updated_at')
+        fields = (
+            'id', 'owner', 'form_enabled', 'name', 'description', 'image', 'theme', 'time', 'created_at', 'updated_at')
 
 
 class FormDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Form
-        fields = ('id', 'name', 'description', 'created_at', 'updated_at')
+        fields = ('id', 'name', 'form_enabled', 'description', 'created_at', 'updated_at')
 
 
 class FormViewSet(viewsets.ModelViewSet):
