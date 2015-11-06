@@ -130,7 +130,7 @@
     "fields": {
       "type_question": 3,
       "form": 3,
-      "question": "<p>10 Cuando el manubrio se mueva en la direcci\u00f3n indicada \u00bfEn qu\u00e9 direcci\u00f3n se movera el piñon X? (Si alternativamente en las dos direcci\u00f3nes, marque la C)</p>",
+      "question": "<p>10 Cuando el manubrio se mueva en la direcci\u00f3n indicada \u00bfEn qu\u00e9 direcci\u00f3n se movera el pi\u00f1on X? (Si alternativamente en las dos direcci\u00f3nes, marque la C)</p>",
       "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
       "show_image": true,
       "image": "Question/t4_10.jpg",
@@ -228,7 +228,7 @@
     "fields": {
       "type_question": 3,
       "form": 4,
-      "question": "<p>17 \u00bfQue sistema de poleas permite que el travesaño se deslice en la direccion de la flecha? (Si ninguno de las dos, marque la C)</p>",
+      "question": "<p>17 \u00bfQue sistema de poleas permite que el travesa\u00f1o se deslice en la direccion de la flecha? (Si ninguno de las dos, marque la C)</p>",
       "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
       "show_image": true,
       "image": "Question/t4_17.jpg",
@@ -242,7 +242,7 @@
     "fields": {
       "type_question": 3,
       "form": 4,
-      "question": "<p>18 Si el piñon X da unicamente una vuelta completa, el piñon Y dara: a) Dos vueltas completas  b) vuelta y media  c) Una vuelta completa</p>",
+      "question": "<p>18 Si el pi\u00f1on X da unicamente una vuelta completa, el pi\u00f1on Y dara: a) Dos vueltas completas  b) vuelta y media  c) Una vuelta completa</p>",
       "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
       "show_image": true,
       "image": "Question/t4_18.jpg",
