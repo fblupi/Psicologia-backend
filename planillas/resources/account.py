@@ -9,7 +9,7 @@ from rest_framework.permissions import IsAdminUser, IsAuthenticatedOrReadOnly, A
 from rest_framework.response import Response
 from planillas.resources.people import People, PeopleSerializer
 from planillas import strings
-from planillas.resources.student import Student, StudentSerializer
+from planillas.resources.student import Student, StudentSerializer, StudentDetailSerializer
 
 
 class AccountManager(BaseUserManager):
@@ -103,7 +103,7 @@ class AccountSerializer(serializers.ModelSerializer):
 
 class AccountDetailSerializer(serializers.ModelSerializer):
     info = PeopleSerializer(read_only=True)
-    student = StudentSerializer(read_only=True)
+    student = StudentDetailSerializer(read_only=True)
 
     class Meta:
         model = Account

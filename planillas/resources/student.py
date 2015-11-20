@@ -4,7 +4,7 @@ from planillas.resources.semester import Semester
 __author__ = 'Emilio-Emilio'
 from django.db import models
 from rest_framework import viewsets, views, serializers
-from planillas.resources.specialty import Specialty
+from planillas.resources.specialty import Specialty, SpecialtySerializer
 from planillas.resources.academicUnit import AcademicUnit
 
 PARALLEL_CHOICES = (
@@ -54,6 +54,15 @@ class Student(models.Model):
 
 
 class StudentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Student
+        fields = (
+            'id', 'semester', 'parallel', 'specialty', 'academicUnit', 'academicMethod', 'created_at', 'updated_at')
+
+
+class StudentDetailSerializer(serializers.ModelSerializer):
+    specialty = SpecialtySerializer(read_only=True)
+
     class Meta:
         model = Student
         fields = (

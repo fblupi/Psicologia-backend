@@ -24,11 +24,12 @@ from planillas.resources.academicMethod import AcademicMethodViewSet
 from planillas.resources.semester import SemesterViewSet
 from planillas.resources.specialty import SpecialtyViewSet
 from planillas.resources.student import StudentViewSet
-from planillas.resources.account import LoginView, LogoutView
+from planillas.resources.account import LoginView, LogoutView, AccountDetailViewSet
 from emiForms.resources.form import FormViewSet
 from emiForms.resources.question import QuestionViewSet, FormQuestionViewSet
 from emiForms.resources.answer import AnswerViewSet, AnswerDetailViewSet
 from emiForms.resources.form_enabled import FormEnabledViewSet
+from emiForms.resources.send_list import SendListViewSet
 # from emiForms.resources.question import QuestionFormApiView
 from django.conf import settings
 from django.conf.urls.static import static
@@ -37,6 +38,7 @@ router = routers.DefaultRouter()
 router.register(r'AcademicMethod', AcademicMethodViewSet)
 router.register(r'AcademicUnit', AcademicUnitViewSet)
 router.register(r'Account', AccountViewSet)
+router.register(r'AccountDetail', AccountDetailViewSet)
 router.register(r'City', CityViewSet)
 router.register(r'People', PeopleViewSet)
 router.register(r'Semester', SemesterViewSet)
@@ -50,6 +52,7 @@ routerForms.register(r'FormEnabled', FormEnabledViewSet, base_name='FormEnabled'
 routerForms.register(r'FormQuestion', FormQuestionViewSet, base_name='FormQuestion')
 routerForms.register(r'Answer', AnswerViewSet, base_name='Answer')
 routerForms.register(r'AnswerDetail', AnswerDetailViewSet, base_name='AnswerDetail')
+routerForms.register(r'SendList', SendListViewSet, base_name='SendList')
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),

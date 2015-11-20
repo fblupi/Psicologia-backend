@@ -5,14 +5,14 @@ from planillas.resources.account import Account, AccountSerializer
 
 class FormEnabled(models.Model):
     enabled = models.BooleanField(default=False)
-    accounts = models.ManyToManyField(Account)
+    accounts = models.ManyToManyField(Account, blank=True)
     max_answer = models.IntegerField(default=1)
     auth = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __unicode__(self):
-        return "%s" % self.all
+        return "%s" % self.enabled
 
     class Meta:
         ordering = ['id']
