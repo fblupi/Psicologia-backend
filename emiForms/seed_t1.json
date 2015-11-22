@@ -5,7 +5,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a empezar como fin es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"como a empezar\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"comienzo - continuar\"},{\"id\":2,\"title\":\"emprender - comienzo\"},{\"id\":3,\"title\":\"inicio - terminar\"},{\"id\":4,\"title\":\"terminar - conclusi\u00f3n\"},{\"id\":5,\"title\":\"objetivo - iniciar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -18,7 +18,7 @@
     "fields": {
       "form": 1,
       "question": "<p>...es a mago como chiste a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"truco - habilidad\"},{\"id\":2,\"title\":\"actor - risa\"},{\"id\":3,\"title\":\"comediante - actor\"},{\"id\":4,\"title\":\"habilidad - tragico\"},{\"id\":5,\"title\":\"truco - humorista\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -31,7 +31,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a pent\u00e1gono como diez  es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"pol\u00edgono - doble\"},{\"id\":2,\"title\":\"cinco - dec\u00e1logo\"},{\"id\":3,\"title\":\"\u00e1ngulo - dec\u00e1logo\"},{\"id\":4,\"title\":\"pentagrama - cinco\"},{\"id\":5,\"title\":\"dec\u00e1metro - doble\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -44,7 +44,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a mano como calcet\u00edn es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"dedo - zapato\"},{\"id\":2,\"title\":\"guante - pie\"},{\"id\":3,\"title\":\"gesto - zapato\"},{\"id\":4,\"title\":\"brazo - pie\"},{\"id\":5,\"title\":\"pulgar - lana\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -57,7 +57,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ara\u00f1ar como avispa es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"u\u00f1a - aguij\u00f3n\"},{\"id\":2,\"title\":\"gato - picar\"},{\"id\":3,\"title\":\"morder - ara\u00f1a\"},{\"id\":4,\"title\":\"u\u00f1a - tela\"},{\"id\":5,\"title\":\"morder - veneno\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -70,7 +70,7 @@
     "fields": {
       "form": 1,
       "question": "<p>...es a izar como abajo es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"subir - arriba\"},{\"id\":2,\"title\":\"peso - descender\"},{\"id\":3,\"title\":\"arriba - arriar\"},{\"id\":4,\"title\":\"vela - mar\"},{\"id\":5,\"title\":\"bandera - vela\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -83,7 +83,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a boca como gru\u00f1o es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"mueca - ojo\"},{\"id\":2,\"title\":\"cara - gesto\"},{\"id\":3,\"title\":\"adem\u00e1n - burla\"},{\"id\":4,\"title\":\"diente - gesto\"},{\"id\":5,\"title\":\"rostro - ojo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -96,7 +96,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tierra como golfo es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"cabo - mar\"},{\"id\":2,\"title\":\"lago - bah\u00eda\"},{\"id\":3,\"title\":\"muelle - cabo\"},{\"id\":4,\"title\":\"mar - playa\"},{\"id\":5,\"title\":\"r\u00edo - bah\u00eda \"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -109,7 +109,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tarde como primero es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"temprano - n\u00famero\"},{\"id\":2,\"title\":\"pronto - uno\"},{\"id\":3,\"title\":\"ma\u00f1ana - pronto\"},{\"id\":4,\"title\":\"temprano - \u00faltimo\"},{\"id\":5,\"title\":\"segundo - \u00faltimo \"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -122,7 +122,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a red como eslab\u00f3n es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"pesca - hierro\"},{\"id\":2,\"title\":\"malla - cadena\"},{\"id\":3,\"title\":\"tejido . anillo\"},{\"id\":4,\"title\":\"barca - hierro\"},{\"id\":5,\"title\":\"hilo - perdenal\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -135,7 +135,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ordinario como peculiar es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"habitual - general\"},{\"id\":2,\"title\":\"com\u00fan - caracter\u00edstico\"},{\"id\":3,\"title\":\"raro - propio\"},{\"id\":4,\"title\":\"familiar - vulgar\"},{\"id\":5,\"title\":\"raro . espec\u00edfico\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -148,7 +148,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a nuez como piel es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"fruta - animal\"},{\"id\":2,\"title\":\"c\u00e1scara - uva\"},{\"id\":3,\"title\":\"vegetal - corteza\"},{\"id\":4,\"title\":\"aceite - vino\"},{\"id\":5,\"title\":\"ardilla - lobo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -161,7 +161,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a pobreza como abundancia es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"dinero - ahorro\"},{\"id\":2,\"title\":\"dinero - opulencia\"},{\"id\":3,\"title\":\"riqueza - bienestar\"},{\"id\":4,\"title\":\"escasez - miseria\"},{\"id\":5,\"title\":\"riqueza - escasez\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -174,7 +174,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a flota como a soldado es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"mar - guerra\"},{\"id\":2,\"title\":\"barco - guerra\"},{\"id\":3,\"title\":\"buque - ej\u00e9rcito\"},{\"id\":4,\"title\":\"mar - infanter\u00eda\"},{\"id\":5,\"title\":\"armada - capit\u00e1sn\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -187,7 +187,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a alumno como pedriatra es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"educaci\u00f3n - salud\"},{\"id\":2,\"title\":\"profesor - m\u00e9dico\"},{\"id\":3,\"title\":\"colegio - maestro\"},{\"id\":4,\"title\":\"libro - puericultor\"},{\"id\":5,\"title\":\"profesor - ni\u00f1o\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -200,7 +200,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a azar como recompensa es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"sorteo - castigo\"},{\"id\":2,\"title\":\"suerte - fortuna\"},{\"id\":3,\"title\":\"destino - elecci\u00f3n\"},{\"id\":4,\"title\":\"suerte - m\u00e9rito\"},{\"id\":5,\"title\":\"premio - dinero\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -213,7 +213,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a muelle como avi\u00f3n  es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"puerto - piloto\"},{\"id\":2,\"title\":\"mercanc\u00eda - nave\"},{\"id\":3,\"title\":\"aterrizaje - pista\"},{\"id\":4,\"title\":\"descarga - comandante\"},{\"id\":5,\"title\":\"barco - hangar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -226,7 +226,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a frecuente como escaso es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"corriente - bastante\"},{\"id\":2,\"title\":\"ordinario - vulgar\"},{\"id\":3,\"title\":\"abundante - raro\"},{\"id\":4,\"title\":\"suficiente - habitual\"},{\"id\":5,\"title\":\"vulgar - corriente\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -239,7 +239,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a despejar como clave es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"tiempo - aclarar\"},{\"id\":2,\"title\":\"resolver - s\u00edmbolo\"},{\"id\":3,\"title\":\"ocultar - secreto\"},{\"id\":4,\"title\":\"inc\u00f3gnita - descifrar\"},{\"id\":5,\"title\":\"problema - ocultar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -252,7 +252,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a abandonar como aceptar es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"desertar - dimitir\"},{\"id\":2,\"title\":\"iniciar - concentir\"},{\"id\":3,\"title\":\"dimitir - renunciar\"},{\"id\":4,\"title\":\"emprender - renunciar\"},{\"id\":5,\"title\":\"huir - rechazar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -265,7 +265,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a avi\u00f3n como timonel es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"motor - h\u00e9lice\"},{\"id\":2,\"title\":\"aeropuerto - puerto\"},{\"id\":3,\"title\":\"piloto - embarcaci\u00f3n\"},{\"id\":4,\"title\":\"piloto - capit\u00e1n\"},{\"id\":5,\"title\":\"embarcaci\u00f3n - tim\u00f3n\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -278,7 +278,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a copia como creaci\u00f3n es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"original - reproducci\u00f3n\"},{\"id\":2,\"title\":\"aut\u00e9ntico - invenci\u00f3n\"},{\"id\":3,\"title\":\"falso - frause\"},{\"id\":4,\"title\":\"real - ficticio\"},{\"id\":5,\"title\":\"imitaci\u00f3n - fraude\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -291,7 +291,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a cort\u00e9s como tosco es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"gentil - grotesco\"},{\"id\":2,\"title\":\"delicado - terco\"},{\"id\":3,\"title\":\"educado - grosero\"},{\"id\":4,\"title\":\"correcto - fino\"},{\"id\":5,\"title\":\"grosero - rudo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -304,7 +304,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a fatiga como bebida es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"descanso - sed\"},{\"id\":2,\"title\":\"trabajo - sed\"},{\"id\":3,\"title\":\"cansancio - agua\"},{\"id\":4,\"title\":\"sue\u00f1o - alimento\"},{\"id\":5,\"title\":\"trabajo - alimento\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -317,7 +317,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a cuervo como pelo es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"nido - cabeza\"},{\"id\":2,\"title\":\"ave - animal\"},{\"id\":3,\"title\":\"rapi\u00f1a - zorro\"},{\"id\":4,\"title\":\"pluma - zorro\"},{\"id\":5,\"title\":\"ave - abrigo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -330,7 +330,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a ganar como desear es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"trabajar - pedir\"},{\"id\":2,\"title\":\"perder - optar\"},{\"id\":3,\"title\":\"competir - conseguir\"},{\"id\":4,\"title\":\"jugar - escoger\"},{\"id\":5,\"title\":\"participar - aborrecer\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -343,7 +343,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a tiempo como inmenso es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"movimiento - medida\"},{\"id\":2,\"title\":\"momento - vasto\"},{\"id\":3,\"title\":\"eterno - cantidad\"},{\"id\":4,\"title\":\"dilatado - momento\"},{\"id\":5,\"title\":\"medida - cantidad\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -356,7 +356,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a caliente como g\u00e9lido es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"hirviente - t\u00f3rrido\"},{\"id\":2,\"title\":\"t\u00f3rrido - fr\u00edo\"},{\"id\":3,\"title\":\"tibio - incandescente\"},{\"id\":4,\"title\":\"templado - glaciar\"},{\"id\":5,\"title\":\"fuego - fr\u00edo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -369,7 +369,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a aceptaci\u00f3n como proyecto es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"promesa - compromiso\"},{\"id\":2,\"title\":\"presupuesto - plano\"},{\"id\":3,\"title\":\"propuesta - ejecuci\u00f3n\"},{\"id\":4,\"title\":\"obra - oferta\"},{\"id\":5,\"title\":\"contrato - obligaci\u00f3n\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -382,7 +382,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a consultar como respuesta es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"interrogar - argumento\"},{\"id\":2,\"title\":\"aconsejar - duda\"},{\"id\":3,\"title\":\"consejo - r\u00e9plica\"},{\"id\":4,\"title\":\"preguntar - consejo\"},{\"id\":5,\"title\":\"opini\u00f3n - disputar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
