@@ -395,7 +395,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a zanja como arado es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"cimiento - surco\"},{\"id\":2,\"title\":\"excavar - tierra\"},{\"id\":3,\"title\":\"draga - cultivo\"},{\"id\":4,\"title\":\"excavadora - surco\"},{\"id\":5,\"title\":\"hoyo - siembra\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -408,7 +408,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a rechazar como agredir es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"avanzar - insultar\"},{\"id\":2,\"title\":\"luchar - enemigo\"},{\"id\":3,\"title\":\"repeler - retroceder\"},{\"id\":4,\"title\":\"atacar - repeler\"},{\"id\":5,\"title\":\"golpe - da\u00f1o\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -421,7 +421,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a \u00e1rbol como manantial es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"tierra - fuente\"},{\"id\":2,\"title\":\"fruta - roca\"},{\"id\":3,\"title\":\"hierba - nieve\"},{\"id\":4,\"title\":\"tallo - r\u00edo\"},{\"id\":5,\"title\":\"abono - fuente\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -434,7 +434,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a separar como proximidad es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"unir - cercan\u00eda\"},{\"id\":2,\"title\":\"despedida - volver\"},{\"id\":3,\"title\":\"alejar - incluir\"},{\"id\":4,\"title\":\"juntar - distancia\"},{\"id\":5,\"title\":\"cercan\u00eda - amistad\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -447,7 +447,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a esculpir como cuero es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"buril - repujar\"},{\"id\":2,\"title\":\"curtir - piel\"},{\"id\":3,\"title\":\"cincel - adornar\"},{\"id\":4,\"title\":\"piedra - repujar\"},{\"id\":5,\"title\":\"estatua - tallar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -460,7 +460,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a fino como copioso es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"sutil - escaso\"},{\"id\":2,\"title\":\"delgado - escaso\"},{\"id\":3,\"title\":\"gordo - oopulento\"},{\"id\":4,\"title\":\"elegante - exiguo\"},{\"id\":5,\"title\":\"grueso - exiguo\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
