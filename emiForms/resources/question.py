@@ -20,7 +20,7 @@ class Question(models.Model):
     values_number = models.TextField(blank=True, null=False, default=0)
 
     show_image = models.BooleanField(default=False)
-    is_answer = models.IntegerField(default="", null=True)
+    is_answer = models.IntegerField(default=-1, null=True)
     image = models.ImageField(upload_to="Question/", default='')
     # image = models.TextField(default='')
     required = models.BooleanField(default=False)

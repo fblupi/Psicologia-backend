@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import migrations, models
+from django.db import models, migrations
 from django.conf import settings
 
 
@@ -67,6 +67,7 @@ class Migration(migrations.Migration):
                 ('values', models.TextField(blank=True)),
                 ('values_number', models.TextField(default=0, blank=True)),
                 ('show_image', models.BooleanField(default=False)),
+                ('is_answer', models.IntegerField(default=b'', null=True)),
                 ('image', models.ImageField(default=b'', upload_to=b'Question/')),
                 ('required', models.BooleanField(default=False)),
                 ('time_question', models.IntegerField(default=0)),
