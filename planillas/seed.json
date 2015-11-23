@@ -395,5 +395,102 @@
       "created_at": "2015-07-24",
       "updated_at": "2015-07-24"
     }
+  },
+  {
+    "model": "planillas.People",
+    "pk": 2,
+    "fields": {
+      "gender": "M",
+      "ci": "9999991",
+      "first_name": "Julio Cesar",
+      "last_name": "Narvaez Tamayo",
+      "date_of_birth": "1993-03-11",
+      "country": "Bolivia",
+      "city_id": "1",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24"
+    }
+  },
+  {
+    "model": "planillas.People",
+    "pk": 3,
+    "fields": {
+      "gender": "F",
+      "ci": "9999901",
+      "first_name": "Usuario",
+      "last_name": "Psicologa",
+      "date_of_birth": "1993-03-10",
+      "country": "Bolivia",
+      "city_id": "1",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24"
+    }
+  },
+  {
+    "model": "planillas.Account",
+    "pk": 1,
+    "fields": {
+      "username": "Administrador",
+      "email": "admin@emi.com",
+      "image": null,
+      "phone_number": "",
+      "info": 1,
+      "student": null,
+      "password": "pbkdf2_sha256$20000$OFsefTyfmKlF$G35dz5idObIaiDV+bL2luTsMSFqbqlF/pMQcFmDliqQ=",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24",
+      "is_admin": true,
+      "is_jefe_carrera": false,
+      "is_psicologa": false,
+      "is_staff": true,
+      "is_superuser": true,
+      "is_active": true,
+      "specialty": null
+    }
+  },
+  {
+    "model": "planillas.Account",
+    "pk": 2,
+    "fields": {
+      "username": "Jefe Carrera",
+      "email": "jefe@emi.com",
+      "image": null,
+      "phone_number": "",
+      "info": 2,
+      "student": null,
+      "password": "pbkdf2_sha256$20000$OFsefTyfmKlF$G35dz5idObIaiDV+bL2luTsMSFqbqlF/pMQcFmDliqQ=",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24",
+      "is_admin": false,
+      "is_jefe_carrera": true,
+      "is_psicologa": false,
+      "is_staff": true,
+      "is_superuser": true,
+      "is_active": true,
+      "specialty": 6
+    }
+  }
+  ,
+  {
+    "model": "planillas.Account",
+    "pk": 3,
+    "fields": {
+      "username": "psicologa",
+      "email": "psicologa@emi.com",
+      "image": null,
+      "phone_number": "",
+      "info": 3,
+      "student": null,
+      "password": "pbkdf2_sha256$20000$OFsefTyfmKlF$G35dz5idObIaiDV+bL2luTsMSFqbqlF/pMQcFmDliqQ=",
+      "created_at": "2015-07-24",
+      "updated_at": "2015-07-24",
+      "is_admin": false,
+      "is_jefe_carrera": false,
+      "is_psicologa": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "is_active": true,
+      "specialty": null
+    }
   }
 ]
