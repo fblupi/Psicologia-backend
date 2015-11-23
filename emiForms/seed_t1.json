@@ -473,7 +473,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a frase como letra es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"verbo - escritura\"},{\"id\":2,\"title\":\"escritura - m\u00fasica\"},{\"id\":3,\"title\":\"p\u00e1rrafo - escritura\"},{\"id\":4,\"title\":\"adjetivo - ortograf\u00eda\"},{\"id\":5,\"title\":\"palabra - palabra\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -486,7 +486,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a vigilia como dormir es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"atenci\u00f3n - so\u00f1ar\"},{\"id\":2,\"title\":\"sue\u00f1o - velar\"},{\"id\":3,\"title\":\"noche - so\u00f1ar\"},{\"id\":4,\"title\":\"despertar - fatiga\"},{\"id\":5,\"title\":\"centinela - descansar\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -499,7 +499,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a labranza como m\u00e1quina es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"campo - herramienta\"},{\"id\":2,\"title\":\"tierra - producci\u00f3n\"},{\"id\":3,\"title\":\"agricultor - ingeniero\"},{\"id\":4,\"title\":\"apero - mec\u00e1nico\"},{\"id\":5,\"title\":\"apero - fabricaci\u00f3n\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
@@ -512,7 +512,7 @@
     "fields": {
       "form": 1,
       "question": "<p>... es a seguridad como indicio es a...</p>",
-      "values": "[{\"id\":1,\"title\":\"a\"},{\"id\":2,\"title\":\"b\"},{\"id\":3,\"title\":\"c\"},{\"id\":4,\"title\":\"d\"},{\"id\":5,\"title\":\"e\"}]",
+      "values": "[{\"id\":1,\"title\":\"polic\u00eda - crimen\"},{\"id\":2,\"title\":\"sospecha - evidencia\"},{\"id\":3,\"title\":\"justicia - prueba\"},{\"id\":4,\"title\":\"sospecha - orden\"},{\"id\":5,\"title\":\"cereza - persuasi\u00f3n\"}]",
       "type_question": 3,
       "image": "Question/kk",
       "created_at": "1993-03-12",
