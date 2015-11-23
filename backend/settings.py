@@ -25,7 +25,7 @@ SECRET_KEY = 'yt#%5&e3)0b_=1-ncy82v4!0*o+0z3&k1dw(!ts(ej+!91!^-1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # APPEND_SLASH = True
 # trailing_slash = False
