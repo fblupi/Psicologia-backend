@@ -1,1 +1,1 @@
-web: gunicorn emi_app.wsgi --log-file -
+web: gunicorn backend.wsgi --log-file -
