@@ -9,6 +9,7 @@ from rest_framework.permissions import IsAdminUser, IsAuthenticatedOrReadOnly, A
 from rest_framework.response import Response
 from planillas.resources.people import People, PeopleSerializer
 from planillas import strings
+from planillas.resources.specialty import Specialty, SpecialtySerializer
 from planillas.resources.student import Student, StudentSerializer, StudentDetailSerializer
 
 
@@ -39,6 +40,8 @@ class AccountManager(BaseUserManager):
 
 class Account(AbstractBaseUser):
     is_admin = models.BooleanField(default=False)
+    is_jefe_carrera = models.BooleanField(default=True)
+    is_psicologa = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
@@ -50,8 +53,9 @@ class Account(AbstractBaseUser):
     phone_number = models.CharField(max_length=10, blank=True)
 
     info = models.ForeignKey(People, default=1)
-    student = models.ForeignKey(Student, default=0)
+    student = models.ForeignKey(Student, null=True)
 
+    specialty = models.ForeignKey(Specialty, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -86,8 +90,8 @@ class AccountSerializer(serializers.ModelSerializer):
         model = Account
 
         fields = (
-            'is_admin', 'is_staff', 'is_superuser', 'id', 'is_active', 'username', 'email', 'image', 'phone_number',
-            'info', 'student', 'password')
+            'id', 'is_admin', 'is_staff', 'is_superuser', 'is_jefe_carrera', 'is_psicologa', 'is_active', 'specialty',
+            'username', 'email', 'image', 'phone_number', 'info', 'student', 'password')
 
     def create(self, validated_data):
         request = self.context.get('request', None)
@@ -104,13 +108,14 @@ class AccountSerializer(serializers.ModelSerializer):
 class AccountDetailSerializer(serializers.ModelSerializer):
     info = PeopleSerializer(read_only=True)
     student = StudentDetailSerializer(read_only=True)
+    specialty = SpecialtySerializer(read_only=True)
 
     class Meta:
         model = Account
 
         fields = (
-            'id', 'username', 'email', 'image', 'phone_number',
-            'info', 'student', 'password')
+            'id', 'is_admin', 'is_staff', 'is_superuser', 'is_jefe_carrera', 'is_psicologa', 'is_active',
+            'specialty', 'username', 'email', 'image', 'phone_number', 'info', 'student', 'password')
 
 
 class AccountDetailViewSet(viewsets.ModelViewSet):

@@ -1,5 +1,16 @@
 [
   {
+    "model": "emiForms.SendListModel",
+    "pk": 1,
+    "fields": {
+      "list": [],
+      "year": 2015,
+      "period": 2,
+      "created_at": "1993-03-12",
+      "updated_at": "1993-03-12"
+    }
+  },
+  {
     "model": "emiForms.FormEnabled",
     "pk": 1,
     "fields": {

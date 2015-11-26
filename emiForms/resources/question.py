@@ -20,6 +20,7 @@ class Question(models.Model):
     values_number = models.TextField(blank=True, null=False, default=0)
 
     show_image = models.BooleanField(default=False)
+    is_answer = models.IntegerField(default=-1, null=True)
     image = models.ImageField(upload_to="Question/", default='')
     # image = models.TextField(default='')
     required = models.BooleanField(default=False)
@@ -42,7 +43,7 @@ class QuestionSerializer(serializers.ModelSerializer):
         model = Question
         fields = (
             'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number',
-            'show_image', 'image',
+            'show_image', 'image', 'is_answer',
             'required', 'time_question', 'more_options', 'other', 'created_at', 'updated_at')
 
 
@@ -60,7 +61,7 @@ class QuestionTempSerializer(serializers.ModelSerializer):
         model = Question
         fields = (
             'id', 'form', 'question', 'type_question', 'show_text_help', 'text_help', 'values', 'values_number',
-            'show_image', 'image',
+            'show_image', 'image', 'is_answer',
             'required', 'time_question', 'more_options', 'other')
 
 
