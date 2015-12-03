@@ -8,6 +8,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"absurdo\"},{\"id\":2,\"title\":\"solemnidad\"},{\"id\":3,\"title\":\"subrrepticio\"},{\"id\":4,\"title\":\"deshacer\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -21,6 +22,7 @@
       "question": "<p></p>",
       "values": "[{\"id\":1,\"title\":\"inmediato\"},{\"id\":2,\"title\":\"herrage\"},{\"id\":3,\"title\":\"proyecto\"},{\"id\":4,\"title\":\"borde\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -34,6 +36,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"ambibalente\"},{\"id\":2,\"title\":\"reanudar\"},{\"id\":3,\"title\":\"bet\u00fan\"},{\"id\":4,\"title\":\"obvio\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -47,6 +50,7 @@
       "question": "<p></p>",
       "values": "[{\"id\":1,\"title\":\"escurrir\"},{\"id\":2,\"title\":\"variar\"},{\"id\":3,\"title\":\"pabor\"},{\"id\":4,\"title\":\"sobrecoger\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -60,6 +64,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"recolecci\u00f3n\"},{\"id\":2,\"title\":\"enmoecer\"},{\"id\":3,\"title\":\"rojizo\"},{\"id\":4,\"title\":\"humeante\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -73,6 +78,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"desv\u00e1n\"},{\"id\":2,\"title\":\"hoguera\"},{\"id\":3,\"title\":\"hyedra\"},{\"id\":4,\"title\":\"aspecto\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -86,6 +92,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"hierba\"},{\"id\":2,\"title\":\"bicho\"},{\"id\":3,\"title\":\"mensagero\"},{\"id\":4,\"title\":\"guijarro\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -99,6 +106,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"enagerar\"},{\"id\":2,\"title\":\"tranquilizar\"},{\"id\":3,\"title\":\"ayuda\"},{\"id\":4,\"title\":\"r\u00edo\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -112,6 +120,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"adoptar\"},{\"id\":2,\"title\":\"quehacer\"},{\"id\":3,\"title\":\"ohasis\"},{\"id\":4,\"title\":\"abombar\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -125,6 +134,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"pertinad\"},{\"id\":2,\"title\":\"colmillo\"},{\"id\":3,\"title\":\"coordinar\"},{\"id\":4,\"title\":\"probar\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -138,6 +148,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"deshonesto\"},{\"id\":2,\"title\":\"ojival\"},{\"id\":3,\"title\":\"fragil\"},{\"id\":4,\"title\":\"combinaci\u00f3n\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -151,6 +162,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"mordad\"},{\"id\":2,\"title\":\"esbozo\"},{\"id\":3,\"title\":\"estructura\"},{\"id\":4,\"title\":\"v\u00edctima\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -164,6 +176,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"arduo\"},{\"id\":2,\"title\":\"injenio\"},{\"id\":3,\"title\":\"hervir\"},{\"id\":4,\"title\":\"brizna\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -177,6 +190,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"afanar\"},{\"id\":2,\"title\":\"capataz\"},{\"id\":3,\"title\":\"urtar\"},{\"id\":4,\"title\":\"inhalar\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -190,6 +204,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"auje\"},{\"id\":2,\"title\":\"mesilla\"},{\"id\":3,\"title\":\"trillo\"},{\"id\":4,\"title\":\"labio\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -203,6 +218,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"sorbo\"},{\"id\":2,\"title\":\"enredo\"},{\"id\":3,\"title\":\"exhortar\"},{\"id\":4,\"title\":\"explotar\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -216,6 +232,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"inofensivo\"},{\"id\":2,\"title\":\"invernar\"},{\"id\":3,\"title\":\"ficci\u00f3n\"},{\"id\":4,\"title\":\"ortelano\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -229,6 +246,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"obstinado\"},{\"id\":2,\"title\":\"coibido\"},{\"id\":3,\"title\":\"esquirla\"},{\"id\":4,\"title\":\"intuici\u00f3n\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -242,6 +260,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"adiacente\"},{\"id\":2,\"title\":\"follaje\"},{\"id\":3,\"title\":\"hinchaz\u00f3n\"},{\"id\":4,\"title\":\"bagaleta\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -255,6 +274,7 @@
       "question": "<p></p>",
       "values": "[{\"id\":1,\"title\":\"esquisito\"},{\"id\":2,\"title\":\"inexorable\"},{\"id\":3,\"title\":\"ondular\"},{\"id\":4,\"title\":\"b\u00f3veda\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -268,6 +288,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"exageraci\u00f3n\"},{\"id\":2,\"title\":\"diobtr\u00eda\"},{\"id\":3,\"title\":\"honroso\"},{\"id\":4,\"title\":\"vetusto\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -281,6 +302,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"cavidad\"},{\"id\":2,\"title\":\"latitud\"},{\"id\":3,\"title\":\"adversario\"},{\"id\":4,\"title\":\"optener\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -294,6 +316,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"sequedad\"},{\"id\":2,\"title\":\"hidrograf\u00eda\"},{\"id\":3,\"title\":\"voluptuoso\"},{\"id\":4,\"title\":\"espropiar\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -307,6 +330,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"hormiga\"},{\"id\":2,\"title\":\"bellota\"},{\"id\":3,\"title\":\"dib\u00e1n\"},{\"id\":4,\"title\":\"g\u00e9lido\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -320,6 +344,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"veterano\"},{\"id\":2,\"title\":\"bamboleo\"},{\"id\":3,\"title\":\"estridencia\"},{\"id\":4,\"title\":\"desnuded\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -333,6 +358,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"reojo\"},{\"id\":2,\"title\":\"husmear\"},{\"id\":3,\"title\":\"botella\"},{\"id\":4,\"title\":\"ecatombe\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -346,6 +372,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"enervado\"},{\"id\":2,\"title\":\"aviso\"},{\"id\":3,\"title\":\"estruendo\"},{\"id\":4,\"title\":\"bagabundo\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -359,6 +386,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"metehoro\"},{\"id\":2,\"title\":\"intervalo\"},{\"id\":3,\"title\":\"abollado\"},{\"id\":4,\"title\":\"holgado\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -372,6 +400,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"sugestivo\"},{\"id\":2,\"title\":\"caracter\"},{\"id\":3,\"title\":\"esbelto\"},{\"id\":4,\"title\":\"\u00e1spid\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -385,6 +414,7 @@
       "question": "<p></p>",
       "values": "[{\"id\":1,\"title\":\"tibio\"},{\"id\":2,\"title\":\"extraer\"},{\"id\":3,\"title\":\"optuso\"},{\"id\":4,\"title\":\"roer\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -398,6 +428,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"c\u00f3ncabo\"},{\"id\":2,\"title\":\"hematoma\"},{\"id\":3,\"title\":\"estribo\"},{\"id\":4,\"title\":\"dehesa\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -411,6 +442,7 @@
       "question": "<p></p>",
       "values": "[{\"id\":1,\"title\":\"saya\"},{\"id\":2,\"title\":\"ausencia\"},{\"id\":3,\"title\":\"arrodillar\"},{\"id\":4,\"title\":\"crugido\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -424,6 +456,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"deshollinador\"},{\"id\":2,\"title\":\"rectil\"},{\"id\":3,\"title\":\"truh\u00e1n\"},{\"id\":4,\"title\":\"inmobiliario\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -437,6 +470,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"hondonaria\"},{\"id\":2,\"title\":\"testura\"},{\"id\":3,\"title\":\"esp\u00e9ctaculo\"},{\"id\":4,\"title\":\"bienestar\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -450,6 +484,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"extra\u00f1o\"},{\"id\":2,\"title\":\"abutarda\"},{\"id\":3,\"title\":\"umbral\"},{\"id\":4,\"title\":\"presb\u00edtero\"}]",
       "image": "Question/kk",
+      "is_answer": 1,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -463,6 +498,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"luci\u00e9rnaga\"},{\"id\":2,\"title\":\"bolsillo\"},{\"id\":3,\"title\":\"prever\"},{\"id\":4,\"title\":\"cerragero\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -476,6 +512,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"actualidad\"},{\"id\":2,\"title\":\"exhaustivo\"},{\"id\":3,\"title\":\"ejecutar\"},{\"id\":4,\"title\":\"escased\"}]",
       "image": "Question/kk",
+      "is_answer": 3,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -489,6 +526,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"alhel\u00ed\"},{\"id\":2,\"title\":\"hast\u00edo\"},{\"id\":3,\"title\":\"alcallata\"},{\"id\":4,\"title\":\"tatuaje\"}]",
       "image": "Question/kk",
+      "is_answer": 2,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -502,6 +540,7 @@
       "question": "<p> </p>",
       "values": "[{\"id\":1,\"title\":\"hoquedad\"},{\"id\":2,\"title\":\"hatillo\"},{\"id\":3,\"title\":\"ahuyentar\"},{\"id\":4,\"title\":\"vereda\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
@@ -515,6 +554,7 @@
       "question": "<p>  </p>",
       "values": "[{\"id\":1,\"title\":\"extremecer\"},{\"id\":2,\"title\":\"inspecci\u00f3n\"},{\"id\":3,\"title\":\"prez\"},{\"id\":4,\"title\":\"aut\u00f3ctono\"}]",
       "image": "Question/kk",
+      "is_answer": 0,
       "created_at": "1993-03-12",
       "updated_at": "1993-03-12"
     }
